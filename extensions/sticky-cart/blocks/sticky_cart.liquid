@@ -1,0 +1,17 @@
+<script>
+  window.stickyCart = {
+    shop: '{{ shop.permanent_domain }}',
+    id: '{{ product.id }}'
+  }
+
+</script>
+
+{% schema %}
+{
+  "name": "Sticky Cart",
+  "target": "body",
+  "stylesheet": "style.css",
+  "javascript": "script.js",
+}
+{% endschema %}
+
